@@ -24,4 +24,6 @@ Cart area with add and remove feature
 
 
 When there is no item in cart
+
+
 ![image](https://user-images.githubusercontent.com/9668906/127825457-2f693df5-2b50-4bfc-a6b1-9baab7c6679c.png)
