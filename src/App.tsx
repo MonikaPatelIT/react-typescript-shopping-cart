@@ -73,11 +73,11 @@ const App = () => {
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)} >
         <Badge badgeContent={getTotalItems(cartItems)} color='error' >
-          <AddShoppingCardIcon />
+          <AddShoppingCardIcon className="shopping-cart" />
         </Badge>
       </StyledButton>
       <Grid container spacing={3}>
-        {data?.map(item => <Grid item key={item.id} xs={12} sm={4}>
+        {data?.map(item => <Grid item key={item.id} xs={12} sm={4} md={3}>
           <Item item={item} handleAddToCart={handleAddToCart} />
         </Grid>
         )}

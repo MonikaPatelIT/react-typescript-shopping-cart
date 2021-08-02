@@ -15,7 +15,11 @@ button {
 }
 
 img {
-    max-height: 250px;
+    display: flex;
+    align-self: center;
+    max-height: 280px;
+    /* width: 210px; */
+    max-width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0 ;
 }

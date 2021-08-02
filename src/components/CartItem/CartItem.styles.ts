@@ -10,13 +10,15 @@ padding-bottom : 20px;
 div{ 
     flex:1;
 }
-.information, .buttons {
+.information, .buttons, .productInfo {
     display: flex;
     justify-content: space-between;
 }
 
 img {
-    max-width: 100px;
+    max-width: 80px;
+    height: 80px;
+    padding: 1rem;
     object-fit:cover;
 }
 `;
